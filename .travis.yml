@@ -8,7 +8,7 @@ python:
     - '3.8-dev'
 
 before_install:
-    - sudo apt update && sudo apt install -y inkscape libdbus-glib-1-dev
+    - sudo apt update && sudo apt install -y inkscape libdbus-1-dev libdbus-glib-1-dev
     # - echo "Python diagnostic Information"
     # - env
     # - sudo dpkg -l|grep python|grep dev
